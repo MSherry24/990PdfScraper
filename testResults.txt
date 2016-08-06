@@ -1,0 +1,28 @@
+Boston U 2013 990.csv 89%
+actual: 50 expected: 56 
+
+depaul 2013 990.csv 97%
+actual: 71 expected: 73 
+
+Pomona 2013 990.csv 98%
+actual: 56 expected: 57 
+
+Columbia 2013 990.csv 91%
+actual: 41 expected: 45 
+
+Grinnell 2013 990.csv 93%
+actual: 50 expected: 54 
+
+marquette 2013 990.csv 98%
+actual: 49 expected: 50 
+
+northwestern 2013 990.csv 98%
+actual: 57 expected: 58 
+
+loyola 2013 990.csv 94%
+actual: 64 expected: 68 
+
+Totals:
+95%
+actual: 438 expected: 461 
+
