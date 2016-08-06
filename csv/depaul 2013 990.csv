@@ -1,69 +1,73 @@
-line1,line2,line3
-Rev Dennis H Holtschneider CM 50 0,"X X 792,276 62,168",PreSIdent and Trustee
-James M Jenness 1 0,X 0,Trustee
-William E Bennett 1 0,X 0,Trustee
-Fr Thomas Anslow CM 1 0,X 0,Trustee
-Peter C Argianas 1 0,X 0,Trustee
-Karen M Atwood 1 0,X 0,Trustee
-Gerald A Beeson 1 0,X 0,Trustee
-John L Brennan 1 0,X 0,Trustee
-Ruth W Brinkley 1 0,X 0,Trustee
-Frank M Clark 1 0,X 0,Trustee
-Curtis] Crawford 1 0,X 0,Trustee
-Sebastian S Cualoping 1 0,X 0,Trustee
-Dr Connie R Curran 1 0,X 0,Trustee
-Mary A Dempsey 1 0,X 0,Trustee
-Sr Margaret Mary Fitzpatrick 1 0,X 0,Trustee
-Sasha L Gerritson 1 0,X 0,Trustee
-Chester A Gougis 1 0,X 0,Trustee
-Sue LGin 1 0,X 0,Trustee
-Jack M Greenberg 1 0,X 0,Trustee
-Arnold T Grisham 1 0,X 0,Trustee
-Richard A Hanson 1 0,X 0,Trustee
-Harry] Harczak 1 0,X 0,Trustee
-William E Hay 1 0,X 0,Trustee
-Dr Donald E Heller 1 0,X 0,Trustee
-Lorraine Holland 1 0,X 0 0 0,Trustee
-Stacy R Janiak 1 0,X 0 0 0,Trustee
-Jeffrey J Kroll 1 0,X 0 0 0,Trustee
-William P Kusack Jr 1 0,X 0 0 0,Trustee
-Rev James] Maher CM 1 0,X 750 0 0,Trustee
-Rev Thomas McKenna CM 1 0,X 0 0 0,Trustee
-Carla Michelotti 1 0,X 0 0 0,Trustee
-Patrick J Moore 1 0,X 0 0 0,Trustee
-PeterJ Pesce 1 0,X 0 0 0,Trustee
-Anne R Pramaggiore 1 0,X 0 0 0,Trustee
-Rev Mark S Pranaitis CM 1 0,X 0 0 0,Trustee
-Larry R Rogers Sr 1 0,X 0 0 0,Trustee
-George Ruff 1 0,X 0 0 0,Trustee
-James Ryan 1 0,X 0 0 0,Trustee
-Bertram L Scott 1 0,X 0 0 0,Trustee
-John B Simon 1 0,X 0 0 0,Trustee
-John C Stanley 1 0,X 0 0 0,Trustee
-Daniel C Ustian 1 0,X 0 0 0,Trustee
-Dia 5 Well 1 0,X 0 0 0,Trustee
-Very Rev Raymond Van DorpeCM 1 0,X 0 0 0,Trustee
-Rev John T Richardson CM 50 0,"X 158,463 0 42,600",Chancellor
-Rev Edward R UdOVIc CM 50 0,"X 287,621 0 59,682",Secretary
-Donald Pope—DaVIs 50 0,"X 497,283 0 18,898",Provost
-Patricia 0' Donoghue 50 0,"X 326,414 0 33,364",Interim Provost
-Robert L Kozoman 50 0,"X 408,748 0 33,364",Executive Vice PreSIdent
-Bonnie A Frankel 50 0,"X 325,583 0 26,501",Vice Pre5ident for Finance
-DaVId H Kalsbeek 50 0,"X 455,571 0 77,487",Senior Vice Pre5ident
-Mary C Finger 50 0,"X 335,386 0 28,868",Senior Vice Pre5ident
-Robert Jams 50 0,"X 333,220 0 70,834",Vice Pres — Facility Ops
-Cindy Summers 50 0,"X 190,446 0 22,960",Int Vice Pres — Studt Affrs
-Jose D Padilla 50 0,"X 362,459 0 78,416",Vice Pres & General Counsel
-Elizabeth F Ortiz 50 0,"X 180,666 0 26,249",Vice Pres — Inst Diver5ity
-Stephanie Smith 50 0,"x 270,839 0 2,594",Vice Pres — Human Resources
-Robert McCormick 50 0,"X 246,332 0 37,932",Vice Pres — Info SerVIces
-Cynthia Lawson 50 0,"X 224,906 0 31,086",Vice Pres — Public Relations
-"Dean, Dreihaus College of Bus",Charles Suchar 50 0,"X 333,087 0 33,364"
-Ray Whittington 50 0,"X 393,906 0 70,323","Dean, Dreihaus College of Bus"
-Charles Suchar 50 0,"X 333,087 0 33,364","Dean, College of LA&S"
-Gregory Mark 50 0,"X 371,362 0 38,253","Dean, Colleg of Law"
-Oliver Purnell 50 0,"x 2,303,721 0 24,099",Men's Head Basketball Coach
-Doug Bruno 50 0,"X 448,510 0 67,925",Women's Head Basketball Coach
-Jean Lenti—Ponsetto 50 0,"X 372,022 0 33,364",Athletics Director
-Helmut P Epp 50 0,"X 246,576 0 25,768",Provost
-Kathy Stieber 50 0,"X 163,258 0 18,940",Interim Vice Pres — HR
+line1,line2,line3,key
+Rev Dennis H Holtschneider CM 50 0,"X X 792,276 62,168",PreSIdent and Trustee,dennis
+James M Jenness 1 0,X 0,Trustee,james
+William E Bennett 1 0,X 0,Trustee,william
+Fr Thomas Anslow CM 1 0,X 0,Trustee,thomas
+Peter C Argianas 1 0,X 0,Trustee,peter
+Karen M Atwood 1 0,X 0,Trustee,karen
+Gerald A Beeson 1 0,X 0,Trustee,gerald
+John L Brennan 1 0,X 0,Trustee,john
+Ruth W Brinkley 1 0,X 0,Trustee,ruth
+Frank M Clark 1 0,X 0,Trustee,frank
+Curtis] Crawford 1 0,X 0,Trustee,crawford
+Sebastian S Cualoping 1 0,X 0,Trustee,sebastian
+Dr Connie R Curran 1 0,X 0,Trustee,connie
+Mary A Dempsey 1 0,X 0,Trustee,mary
+Sr Margaret Mary Fitzpatrick 1 0,X 0,Trustee,margaret
+Sasha L Gerritson 1 0,X 0,Trustee,sasha
+Chester A Gougis 1 0,X 0,Trustee,chester
+Sue LGin 1 0,X 0,Trustee,sue
+Jack M Greenberg 1 0,X 0,Trustee,jack
+Arnold T Grisham 1 0,X 0,Trustee,arnold
+Richard A Hanson 1 0,X 0,Trustee,richard
+William E Hay 1 0,X 0,Trustee,william
+Dr Donald E Heller 1 0,X 0,Trustee,donald
+Lorraine Holland 1 0,X 0 0 0,Trustee,lorraine
+Stacy R Janiak 1 0,X 0 0 0,Trustee,stacy
+Jeffrey J Kroll 1 0,X 0 0 0,Trustee,jeffrey
+William P Kusack Jr 1 0,X 0 0 0,Trustee,william
+Rev James] Maher CM 1 0,X 750 0 0,Trustee,maher
+Rev Thomas McKenna CM 1 0,X 0 0 0,Trustee,thomas
+Carla Michelotti 1 0,X 0 0 0,Trustee,carla
+Patrick J Moore 1 0,X 0 0 0,Trustee,patrick
+PeterJ Pesce 1 0,X 0 0 0,Trustee,pesce
+Anne R Pramaggiore 1 0,X 0 0 0,Trustee,anne
+Rev Mark S Pranaitis CM 1 0,X 0 0 0,Trustee,mark
+Larry R Rogers Sr 1 0,X 0 0 0,Trustee,larry
+George Ruff 1 0,X 0 0 0,Trustee,george
+James Ryan 1 0,X 0 0 0,Trustee,james
+Bertram L Scott 1 0,X 0 0 0,Trustee,bertram
+John B Simon 1 0,X 0 0 0,Trustee,john
+John C Stanley 1 0,X 0 0 0,Trustee,john
+Daniel C Ustian 1 0,X 0 0 0,Trustee,daniel
+Dia 5 Well 1 0,X 0 0 0,Trustee,dia
+Very Rev Raymond Van DorpeCM 1 0,X 0 0 0,Trustee,raymond
+Rev John T Richardson CM 50 0,"X 158,463 0 42,600",Chancellor,john
+Rev Edward R UdOVIc CM 50 0,"X 287,621 0 59,682",Secretary,edward
+Donald Pope—DaVIs 50 0,"X 497,283 0 18,898",Provost,donald
+Patricia 0' Donoghue 50 0,"X 326,414 0 33,364",Interim Provost,patricia
+Robert L Kozoman 50 0,"X 408,748 0 33,364",Executive Vice PreSIdent,robert
+Bonnie A Frankel 50 0,"X 325,583 0 26,501",Vice Pre5ident for Finance,bonnie
+DaVId H Kalsbeek 50 0,"X 455,571 0 77,487",Senior Vice Pre5ident,david
+Mary C Finger 50 0,"X 335,386 0 28,868",Senior Vice Pre5ident,mary
+Jay Braatz 50 0,"X 245,619 0 24,990",Sr Exec For Pres Ops,jay
+Robert Jams 50 0,"X 333,220 0 70,834",Vice Pres — Facility Ops,robert
+Cindy Summers 50 0,"X 190,446 0 22,960",Int Vice Pres — Studt Affrs,cindy
+Jose D Padilla 50 0,"X 362,459 0 78,416",Vice Pres & General Counsel,jose
+Elizabeth F Ortiz 50 0,"X 180,666 0 26,249",Vice Pres — Inst Diver5ity,elizabeth
+Jeffery Bethke 50 0,"X 237,629 0 37,228",Treasurer,jeffery
+Mark Hawkins 50 0,"X 169,585 0 17,646",Controller until October 2013,mark
+Sherri Sid ler 50 0,"X 147,569 0 24,166",Interim Controller,sherri
+Stephanie Smith 50 0,"x 270,839 0 2,594",Vice Pres — Human Resources,stephanie
+Robert McCormick 50 0,"X 246,332 0 37,932",Vice Pres — Info SerVIces,robert
+Cynthia Lawson 50 0,"X 224,906 0 31,086",Vice Pres — Public Relations,cynthia
+Vice Pres — Public Relations,Ray Whittington 50 0,"X 393,906 0 70,323",public
+Ray Whittington 50 0,"X 393,906 0 70,323","Dean, Dreihaus College of Bus",ray
+Charles Suchar 50 0,"X 333,087 0 33,364","Dean, College of LA&S",charles
+Gregory Mark 50 0,"X 371,362 0 38,253","Dean, Colleg of Law",gregory
+Oliver Purnell 50 0,"x 2,303,721 0 24,099",Men's Head Basketball Coach,oliver
+Doug Bruno 50 0,"X 448,510 0 67,925",Women's Head Basketball Coach,doug
+Jean Lenti—Ponsetto 50 0,"X 372,022 0 33,364",Athletics Director,jean
+James Shilling 50 0,"X 380,009 0 26,168",Professor,james
+Helmut P Epp 50 0,"X 246,576 0 25,768",Provost,epp
+Kathy Stieber 50 0,"X 163,258 0 18,940",Interim Vice Pres — HR,kathy

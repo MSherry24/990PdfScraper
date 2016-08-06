@@ -1,50 +1,50 @@
-line1,line2,line3
-Ms Natalie A Black 1 00,X 0 0 0,Trustee
-MrJohn F Ferraro 1 00,X 0 0 0,Trustee
-Mr Richard J Fotsch 1 00,X 0 0 0,Trustee
-Rev James G Gartland SJ 1 00,X 0 0 0,Trustee
-Mr Darren R Jackson 1 00,X 0 0 0,Trustee
-Mr James F Janz 1 00,X 0 0 0,Trustee
-Rev Timothy R Lannon SJ 1 00,X 0 0 0,Trustee
-Rev Thomas A Lawler SJ 1 00,X 0 0 0,Trustee
-Mr Patrick 5 Lawton 1 00,X 0 0 0,Trustee
-MrJohn P Lynch 1 00,X 0 0 0,Trustee
-Mr Alfred C McGUIre 1 00,X 0 0 0,Trustee
-Ms Kelly McShane 1 00,X 0 0 0,Trustee
-Dr Arnold L Mitchem 1 00,X 0 0 0,Trustee
-Rev Joseph M O'Keefe SJ 1 00,X 0 0 0,Trustee
-Mr James D O'Rourke 1 00,X 0 0 0,Trustee
-Dr Janis M Orlowski MD MACP 1 00,X 0 0 0,Trustee
-Ms Kristine A Rappe 1 00,X 0 0 0,Trustee
-Mr Glenn A Rivers 1 00,X 0 0 0,Trustee
-Mr Scott A Roberts 1 00,X 0 0 0,Trustee
-Hon W Greg Ryberg 1 00,X 0 0 0,Trustee
-Mr Scott H Schroeder 1 00,X 0 0 0,Trustee
-Mr Owen J Sullivan 1 00,X 0 0 0,Trustee
-Mr Charles M Swoboda 1 00,X 0 0 0,Trustee
-Ms Cherryl T Thomas 1 00,X 0 0 0,Trustee
-Mr Benjamin 5 Tracy 1 00,X 0 0 0,Trustee
-Ms Margaret M Troy 1 00,X 0 0 0,Trustee
-Ms Rhona Vogel 1 00,X 0 0 0,Trustee
-MrJames M Weiss 1 00,X 0 0 0,Trustee
-Mr Thomas H Werner 1 00,X 0 0 0,Trustee
-Hon James A Wynn 1 00,X 0 0 0,Trustee
-Rev Michael A Zampelli SJ 1 00,X 0 0 0,Trustee
-Ms Anne A Zizzo 1 00,X 0 0 0,Trustee
-Rev Scott R Pilarz SJ 40 00,"X 157,890 0 0",PreSIdent
-Rev Robert A Wild SJ 40 00,X 0 0 0,PreSIdent
-Dr Margaret F Callahan 40 00,"X 291,836 0 0",Corp Vice PreSIdent
-MrJohn C Lamb 40 00,"X 316,833 0 0",Corp Treasurer
-Ms Mary L Austin 40 00,"X 185,545 0 0",Corp Asst Treasurer
-Mr Steven W Frieder 40 00,"X 111,471 0 0",Corp Secretary
-Ms Cynthia M Bauer 40 00,"X 227,347 0 0",Corp Asst Secretary
-Dr Mary A DiStanislao 40 00,"X 233,618 0 0",Executive Vice PreSIdent
-Mr Lawrence R Williams 40 00,"X 416,594 0 0",Athletic Director
-Mr Thomas P Ganey 40 00,"X 215,712 0 0",Vice PreSIdent of Planning
-Mr Brent L Williams 40 00,"x 2,111,606 0 0",Mens Basketball Coach
-Ms Terri L Mitchell 40 00,"X 446,523 0 0",Womens Basketball Coach
-Mr Joseph D Kearney 40 00,"X 319,935 0 0",Dean Law School
-Mr Isaac Chew 40 00,"X 319,576 0 0",Asst Mens Basketball Coach
-Dr Robert H Bishop 40 00,"X 307,087 0 0",Dean Engineering
-Mr Gregory J Kliebhan,"X 346,685 0 0",Former Corp VP
-Dr John J Pauly 40 00,"X 275,681 0 0",Former Corp VP
+line1,line2,line3,key
+Ms Natalie A Black 1 00,X 0 0 0,Trustee,natalie
+MrJohn F Ferraro 1 00,X 0 0 0,Trustee,ferraro
+Mr Richard J Fotsch 1 00,X 0 0 0,Trustee,richard
+Rev James G Gartland SJ 1 00,X 0 0 0,Trustee,james
+Mr Darren R Jackson 1 00,X 0 0 0,Trustee,darren
+Mr James F Janz 1 00,X 0 0 0,Trustee,james
+Rev Timothy R Lannon SJ 1 00,X 0 0 0,Trustee,timothy
+Rev Thomas A Lawler SJ 1 00,X 0 0 0,Trustee,thomas
+Mr Patrick 5 Lawton 1 00,X 0 0 0,Trustee,patrick
+MrJohn P Lynch 1 00,X 0 0 0,Trustee,lynch
+Mr Alfred C McGUIre 1 00,X 0 0 0,Trustee,alfred
+Ms Kelly McShane 1 00,X 0 0 0,Trustee,kelly
+Dr Arnold L Mitchem 1 00,X 0 0 0,Trustee,arnold
+Rev Joseph M O'Keefe SJ 1 00,X 0 0 0,Trustee,joseph
+Mr James D O'Rourke 1 00,X 0 0 0,Trustee,james
+Dr Janis M Orlowski MD MACP 1 00,X 0 0 0,Trustee,janis
+Ms Kristine A Rappe 1 00,X 0 0 0,Trustee,kristine
+Mr Glenn A Rivers 1 00,X 0 0 0,Trustee,glenn
+Mr Scott A Roberts 1 00,X 0 0 0,Trustee,scott
+Hon W Greg Ryberg 1 00,X 0 0 0,Trustee,hon
+Mr Scott H Schroeder 1 00,X 0 0 0,Trustee,scott
+Mr Owen J Sullivan 1 00,X 0 0 0,Trustee,owen
+Mr Charles M Swoboda 1 00,X 0 0 0,Trustee,charles
+Ms Cherryl T Thomas 1 00,X 0 0 0,Trustee,cherryl
+Mr Benjamin 5 Tracy 1 00,X 0 0 0,Trustee,benjamin
+Ms Margaret M Troy 1 00,X 0 0 0,Trustee,margaret
+Ms Rhona Vogel 1 00,X 0 0 0,Trustee,rhona
+MrJames M Weiss 1 00,X 0 0 0,Trustee,weiss
+Mr Thomas H Werner 1 00,X 0 0 0,Trustee,thomas
+Hon James A Wynn 1 00,X 0 0 0,Trustee,hon
+Rev Michael A Zampelli SJ 1 00,X 0 0 0,Trustee,michael
+Ms Anne A Zizzo 1 00,X 0 0 0,Trustee,anne
+Rev Scott R Pilarz SJ 40 00,"X 157,890 0 0",PreSIdent,scott
+Rev Robert A Wild SJ 40 00,X 0 0 0,PreSIdent,robert
+Dr Margaret F Callahan 40 00,"X 291,836 0 0",Corp Vice PreSIdent,margaret
+MrJohn C Lamb 40 00,"X 316,833 0 0",Corp Treasurer,lamb
+Ms Mary L Austin 40 00,"X 185,545 0 0",Corp Asst Treasurer,mary
+Mr Steven W Frieder 40 00,"X 111,471 0 0",Corp Secretary,steven
+Ms Cynthia M Bauer 40 00,"X 227,347 0 0",Corp Asst Secretary,cynthia
+Dr Mary A DiStanislao 40 00,"X 233,618 0 0",Executive Vice PreSIdent,mary
+Mr Lawrence R Williams 40 00,"X 416,594 0 0",Athletic Director,lawrence
+Mr Thomas P Ganey 40 00,"X 215,712 0 0",Vice PreSIdent of Planning,thomas
+Mr Brent L Williams 40 00,"x 2,111,606 0 0",Mens Basketball Coach,brent
+Ms Terri L Mitchell 40 00,"X 446,523 0 0",Womens Basketball Coach,terri
+Mr Joseph D Kearney 40 00,"X 319,935 0 0",Dean Law School,joseph
+Mr Isaac Chew 40 00,"X 319,576 0 0",Asst Mens Basketball Coach,isaac
+Dr Robert H Bishop 40 00,"X 307,087 0 0",Dean Engineering,robert
+Mr Gregory J Kliebhan,"X 346,685 0 0",Former Corp VP,gregory
+Dr John J Pauly 40 00,"X 275,681 0 0",Former Corp VP,john

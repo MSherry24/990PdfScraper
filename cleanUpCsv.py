@@ -5,6 +5,7 @@ import csv
 def processRow(row):
 	line2 = row['line2']
 	line2Array = line2.split(' ')
+	line2Array.remove()
 	print line2Array
 
 
