@@ -10,9 +10,6 @@ import csv
 def encodeUtf8(text):
 	return text.encode('utf-8').strip()
 
-def listToString(list):
-	return " ".join(list)
-
 def person(line1, line2, line3, key):
 	info = {}
 	info['line1'] = encodeUtf8(line1.text)
@@ -45,7 +42,7 @@ def lookForPeopleOnPage(page):
 	return people
 
 def paragraphContainsPersonInformation(paragraph):
-	keywords = ["dotted line", "organizations a", "dotted IIne", "9 related below"]
+	keywords = ["dotted line", "dotted IIne", "organizations a", "9 related below"]
 	return blobContainsListValue(paragraph, keywords)
 
 def findPeopleFromParagraph(paragraph):
@@ -92,8 +89,8 @@ def writePeopleToFile(people, filename):
 			out.writerow({
 				'line1' : person['line1'],
 				'line2' : person['line2'],
-				'line3' : person['line3'],
-				'key' : person['key']
+				'line3' : person['line3']#,
+				# 'key' : person['key']
 			})
 	
 
