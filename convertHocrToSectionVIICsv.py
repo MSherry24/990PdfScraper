@@ -27,7 +27,7 @@ def getSectionVIIPersonInfo(tree):
 	pagesfound = 0
 	for page in pages:
 		if pageIsPartVII(page):
-			peopleOnPage = lookForPeoplOnPage(page)
+			peopleOnPage = lookForPeopleOnPage(page)
 			people = people + peopleOnPage
 	return people
 
@@ -35,7 +35,7 @@ def pageIsPartVII(page):
 	keywords = ["Part VII - Compensation"]
 	return blobContainsListValue(page, keywords)
 
-def lookForPeoplOnPage(page):
+def lookForPeopleOnPage(page):
 	people = []
 	paragraphs = page.select('.ocr_par')
 	for paragraph in paragraphs:
@@ -50,23 +50,16 @@ def paragraphContainsPersonInformation(paragraph):
 
 def findPeopleFromParagraph(paragraph):
 	people = []
-	# processedIndicies = set([])
 	lines = paragraph.select('.ocr_line')
 	lineLength = len(lines)
 	for index, line in enumerate(lines):
-		# if foundPrefix(line) and (index + 2) < lineLength:
-		# 	people.append(person(lines[index], lines[index + 1], lines[index + 2]))
-		# 	processedIndicies.add(index)
-		# if foundTitle(line) and (index - 2) not in processedIndicies:
-		# 	people.append(person(lines[index-2], lines[index - 1], lines[index]))
-		# 	processedIndicies.add(index - 2)
-		foundAName, key = foundName(line)
+		foundAName, key = lineContainsAName(line)
 		if foundAName and (index + 2) < lineLength and not containsFilterWord(lines[index]):
 			newPerson = person(lines[index], lines[index + 1], lines[index + 2], key)
 			people.append(newPerson)
 	return people
 
-def foundName(line):
+def lineContainsAName(line):
 	words = line.select('.ocrx_word')
 	for word in words:
 		if word.text.lower() in nameSet:
