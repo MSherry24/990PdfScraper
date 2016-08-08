@@ -7,7 +7,6 @@ def processRow(row):
 	hours = getHours(row)
 	salary = getSalary(row)
 	title = getTitle(row)
-	
 	return {
 		'name': name,
 		'hours': hours,

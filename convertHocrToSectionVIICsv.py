@@ -21,15 +21,33 @@ def person(line1, line2, line3, key):
 def getSectionVIIPersonInfo(tree):
 	people = []
 	pages = tree.select('.ocr_page')
-	pagesfound = 0
+
+	formYear = getFormYear(pages)
+	if formYear is 0:
+		return people
+
 	for page in pages:
 		if pageIsPartVII(page):
+			# print 'found part vii page'
 			peopleOnPage = lookForPeopleOnPage(page)
 			people = people + peopleOnPage
+
 	return people
 
+def getFormYear(pages):
+	for page in pages:
+		if blobContainsListValue(page, ['990 (2013)']):
+			return 2013
+		if blobContainsListValue(page, ['990 (2014)']):
+			return 2014
+	return 0
+
+
 def pageIsPartVII(page):
-	keywords = ["Part VII - Compensation"]
+	keywords = ["Part VII - Compensation", 
+				"Part VII Compensation", 
+				"Compensation of Officers",
+				"section a. officers"]
 	return blobContainsListValue(page, keywords)
 
 def lookForPeopleOnPage(page):
@@ -37,12 +55,17 @@ def lookForPeopleOnPage(page):
 	paragraphs = page.select('.ocr_par')
 	for paragraph in paragraphs:
 		if paragraphContainsPersonInformation(paragraph):
+			# print 'found line'
 			foundPeople = findPeopleFromParagraph(paragraph)
 			people = people + foundPeople
 	return people
 
 def paragraphContainsPersonInformation(paragraph):
-	keywords = ["dotted line", "dotted IIne", "organizations a", "9 related below"]
+	keywords = ["dotted line", 
+				"dotted IIne", 
+				"organizations a", 
+				"9 related below", 
+				"Name and Title Average"]
 	return blobContainsListValue(paragraph, keywords)
 
 def findPeopleFromParagraph(paragraph):
@@ -51,7 +74,7 @@ def findPeopleFromParagraph(paragraph):
 	lineLength = len(lines)
 	for index, line in enumerate(lines):
 		foundAName, key = lineContainsAName(line)
-		if foundAName and (index + 2) < lineLength and not containsFilterWord(lines[index]):
+		if foundAName and (index + 2) < lineLength:
 			newPerson = person(lines[index], lines[index + 1], lines[index + 2], key)
 			people.append(newPerson)
 	return people
@@ -62,18 +85,6 @@ def lineContainsAName(line):
 		if word.text.lower() in nameSet:
 			return True, word.text.lower()
 	return False, ''
-
-def containsFilterWord(line):
-	filterWords = ['School', 'Institute']
-	return blobContainsListValue(line, filterWords)
-
-def foundPrefix(line):
-	prefixes = ['Mr', 'Dr', 'Ms', 'Rev', 'Hon']
-	return blobContainsListValue(line, prefixes)
-
-def foundTitle(line):
-	titles = ['Trustee', 'President', 'CEO', 'Chairman', 'Chair', 'Vice', 'VP', 'Provost', 'Dir', 'Dean', 'Coach', 'Professor', 'School', 'Institute']
-	return blobContainsListValue(line, titles)
 
 def blobContainsListValue(blob, listOfStrings):
 	if any (x.lower() in blob.text.lower() for x in listOfStrings):
@@ -89,8 +100,8 @@ def writePeopleToFile(people, filename):
 			out.writerow({
 				'line1' : person['line1'],
 				'line2' : person['line2'],
-				'line3' : person['line3']#,
-				# 'key' : person['key']
+				'line3' : person['line3'],
+				'key' : person['key']
 			})
 	
 
