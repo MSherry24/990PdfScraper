@@ -1,5 +1,4 @@
 name,title,hours,salary1,salary2,salary3
-E“ El,I1,,0,0,0
 (1) Nancy Armbrust,Secretary,2,0,0,0
 (2) Gregg Behrens,Director,1,0,0,0
 (3) Lloyd Bettis,Vice Chair,2,0,0,0
@@ -14,3 +13,21 @@ E“ El,I1,,0,0,0
 (12) Steven Schuler,Treasurer,2,0,0,0
 (13) Gary Streit,Director,1,0,0,0
 (14) Roger Underwood,Director,1,0,0,0
+(15) Roger Neuhaus,PreSIdent (7/2014 — 3/2015),40,332960,39932,0
+(16) Larissa Holtmyer Jones,PreSIdent (3/2015 — present),40,217257,38818,0
+(17) Lisa Eslinger,Sr VP of Finance & Ops,40,213089,30581,0
+(18) Steve Biever,VP for Development,40,150672,31851,0
+(19) Jeremy GaIVIn,VP for Development,40,145642,31050,0
+(20) KeVIn Stow,"Assoaate VP, Human Resources",40,129665,29323,0
+(21) John Glover,Asst VP for Development,40,122853,22817,0
+(22) Rosa Unal,Assoaate VP of IT and DCS,40,118972,28535,0
+(23) Mike Wahlin,As5istant VP and Controller,40,113888,27960,0
+(24) Ray Klein,"Executive Dir of Dev, Ag & LS",40,111301,27262,0
+"Cambridge Assoaates, Consulting 673,125","Arlington, VA",,4100,130,0
+North Fairfax Drive SUIte,"Tweedy Browne Company LLC, Investment Fees 415,903",4100,222031664,0,0
+"Arlington, VA",Metro Center One Station Place,222031664,415903,0,0
+"Tweedy Browne Company LLC, Investment Fees 415,903","Stamford, CT",,0,0,0
+Metro Center One Station Place,"HPC LLC, Construction Sewice 387,151",,06902,0,0
+N Sherman Avenue,"Kiltearn Partners Inc, Investment Fees 258,520",120,50010,0,0
+"Kiltearn Partners Inc, Investment Fees 258,520","PITTSBURGH, PA",,651,300,0
+Holiday Drive SUIte,"Investment Fees 212,801",651,15220,0,0
