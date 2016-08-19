@@ -24,11 +24,11 @@ schools = {
 	'Duke 990 2013.csv' : {'expected' : 59 },
 	'Iowa State 990 2013.csv' : {'expected' : 33 },
 	'UNC Asheville 990 2013.csv' : {'expected' : 35 },
-	'UNC Asheville 990 2014.csv' : {'expected' : 30 },
+	# 'UNC Asheville 990 2014.csv' : {'expected' : 30 },
 	'UNC Chapel Hill 990 2013.csv' : {'expected' : 25 },
 	'Villanova 990 2013.csv' : {'expected' :  62 },
 	'Wichita State 990 2013.csv' : {'expected' : 21 },
-	'Wichita State 990 2014.csv' : {'expected' : 24 }
+	# 'Wichita State 990 2014.csv' : {'expected' : 24 }
 }
 
 csvPath = "./csv"

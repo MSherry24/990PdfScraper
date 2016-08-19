@@ -47,7 +47,8 @@ def pageIsPartVII(page):
 	keywords = ["Part VII - Compensation", 
 				"Part VII Compensation", 
 				"Compensation of Officers",
-				"section a. officers"]
+				"w-2/1099-misc",
+				"W- 2/1099-"]
 	return blobContainsListValue(page, keywords)
 
 def lookForPeopleOnPage(page):
@@ -126,14 +127,30 @@ def getNamesSet():
 			content = csvfile.readlines()
 			for line in content:
 				names.add(line.lower().replace('\n', '').replace('\r', '').replace(' ', ''))
+
+	ignoreNames = getIgnoreNames()
+	for ignoreName in ignoreNames:
+		if ignoreName in names:
+			names.remove(ignoreName)
 	return names
 
+def getIgnoreNames():
+	names = set([])
+	namePath = './'
+	nameFiles = [f for f in listdir(namePath) if isfile(join(namePath, f)) and 'ignoreNames.csv' in f]
+	for nameFile in nameFiles:
+		with open('./' + nameFile, 'r') as csvfile:
+			content = csvfile.readlines()
+			for line in content:
+				names.add(line.lower().replace('\n', '').replace('\r', '').replace(' ', ''))
+	return names
 
 hocrPath = "./hocr"
 hocrFiles = [f for f in listdir(hocrPath) if isfile(join(hocrPath, f)) and '.hocr' in f]
 
 global nameSet
 nameSet = getNamesSet()
+
 
 for school in hocrFiles:
 	processForm('hocr/' + school)
