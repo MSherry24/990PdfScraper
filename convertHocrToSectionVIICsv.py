@@ -66,7 +66,8 @@ def paragraphContainsPersonInformation(paragraph):
 				"dotted IIne", 
 				"organizations a", 
 				"9 related below", 
-				"Name and Title Average"]
+				"Name and Title Average",
+				"dotted |Ine"]
 	return blobContainsListValue(paragraph, keywords)
 
 def findPeopleFromParagraph(paragraph):
@@ -94,7 +95,7 @@ def blobContainsListValue(blob, listOfStrings):
 
 def writePeopleToFile(people, filename):
 	with open(getCsvFilePath(filename), "w") as csvfile:
-		fieldNames = ['line1', 'line2', 'line3', 'key']
+		fieldNames = ['line1', 'line2', 'line3', 'key', 'fein', 'unitid', 'institutionname']
 		out = csv.DictWriter(csvfile, fieldNames)
 		out.writeheader()
 		for person in people:
@@ -102,15 +103,23 @@ def writePeopleToFile(people, filename):
 				'line1' : person['line1'],
 				'line2' : person['line2'],
 				'line3' : person['line3'],
-				'key' : person['key']
+				'key' : person['key'],
+				'fein': person['fein'],
+				'unitid' : person['unitid'],
+				'institutionname' : person['institutionname']
 			})
 	
 
-def processForm(filename):
+def processForm(filename, fein):
 	with open(filename, 'r') as myfile:
 		data = myfile.read().replace('\n','')
+		
 	soup = bs4.BeautifulSoup(data)
 	people = getSectionVIIPersonInfo(soup)
+	for person in people:
+		person['fein'] = fein
+		person['unitid'] = feinDict[fein]['unitid']
+		person['institutionname'] = feinDict[fein]['institutionname']
 	writePeopleToFile(people, filename)
 
 def getCsvFilePath(filename):
@@ -145,15 +154,51 @@ def getIgnoreNames():
 				names.add(line.lower().replace('\n', '').replace('\r', '').replace(' ', ''))
 	return names
 
+def getFeinDictionary():
+    feinDict = {}
+    path = './'
+    files = [f for f in listdir(path) if isfile(join(path, f)) and 'PrivateNonProfitEIN.csv' in f]
+    for file in files:
+        with open('./' + file, 'r') as csvfile:
+            content = csvfile.readlines()
+            for line in content:
+                keys = line.split(',')
+                if len(keys[2]) == 8:
+                    keys[2] = '0' + keys[2]
+                fein = keys[2]
+                feinDict[fein] = { 'unitid': keys[0], 'institutionname': keys[1] }
+    return feinDict
+
+
+print 'getting files'
 hocrPath = "./hocr"
 hocrFiles = [f for f in listdir(hocrPath) if isfile(join(hocrPath, f)) and '.hocr' in f]
 
+print 'getting names'
 global nameSet
 nameSet = getNamesSet()
 
+print 'generating fein dictionary'
+feinDict = getFeinDictionary()
 
-for school in hocrFiles:
-	processForm('hocr/' + school)
+# overRideList = ["020222120_2013_0b829fa9.hocr"]
+overRideList = []
+
+numFiles = len(hocrFiles)
+filesProcessed = 0
+
+print 'start processing'
+if len(overRideList) == 0:
+	for school in hocrFiles:
+		print 'processing', school, '#', filesProcessed, 'of', numFiles
+		filesProcessed += 1
+		fein = school[:9]
+		processForm('hocr/' + school, fein)
+else:
+	for school in overRideList:
+		print 'processing', school
+		fein = school[:9]
+		processForm('hocr/' + school, fein)
 
 
 

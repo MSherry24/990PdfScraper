@@ -1,0 +1,28 @@
+name,title,hours,salary1,salary2,salary3,fein,unitid,institutionname
+(1) Steve Olsen,Chairman,1,0,0,0,586044761,138868,Point University
+(2) Cam Huxford,Vice Chairman,1,0,0,0,586044761,138868,Point University
+(3) Larry Vierling,Secretary,1,0,0,0,586044761,138868,Point University
+(4) Tony Collins,Treasurer,1,0,0,0,586044761,138868,Point University
+(5) Alan Stith,Trustee,1,0,0,0,586044761,138868,Point University
+(6) Art Dana,Trustee,1,0,0,0,586044761,138868,Point University
+(7) Dr Billye Joyce Fine,Trustee,1,0,0,0,586044761,138868,Point University
+(8) Bob Johnson,Trustee,1,0,0,0,586044761,138868,Point University
+(9) Dale Bouchillon,Trustee,1,0,0,0,586044761,138868,Point University
+(10) DaVId Deeter,Trustee,1,0,0,0,586044761,138868,Point University
+(11) Gerald Andrews,Trustee,1,0,0,0,586044761,138868,Point University
+(12) J Ross Green,Trustee,1,0,0,0,586044761,138868,Point University
+(14) Larry Bradberry,Trustee,1,0,0,0,586044761,138868,Point University
+(15) MarVIn Bussey,Trustee,1,0,0,0,586044761,138868,Point University
+(16) Mike Waers,Trustee,1,0,0,0,586044761,138868,Point University
+(17) Paul Leslie,Trustee,1,0,0,0,586044761,138868,Point University
+(18) Dr Ralph Swearngin,Trustee,1,0,0,0,586044761,138868,Point University
+(19) Rob Raynor,Trustee,1,0,0,0,586044761,138868,Point University
+(20) Robert Lamb,Trustee,1,0,0,0,586044761,138868,Point University
+(21) Dean Collins,PreSIdent,40,137311,53416,0,586044761,138868,Point University
+(22) Joseph Botana,VP Busmess & Finance — Part Year,40,68000,0,0,586044761,138868,Point University
+(23) Stephen Weaver,Facuky,40,108545,19941,0,586044761,138868,Point University
+(24) Emma Morris,VP Educational Initiatives,40,105186,10200,0,586044761,138868,Point University
+(25) Jose Dieudonne,Chief Information Officer,40,104700,300,0,586044761,138868,Point University
+(26) Wilbert Harrison,Chief Academic Officer,40,103574,15618,0,586044761,138868,Point University
+"Crest Club Crest Club Circle Valley AL36854 Student Housmg 904,369","The DeMoss Group Peachtree Road NE SUIte Atlanta GA Public Relations 472,262",100,607,30241,893715,586044761,138868,Point University
+"Kimble's Food by De5ign Hines Street LaGrange GA Food SerVIce 893,715","Church of Highlands E Samford Avenue Auburn AL36830 Instruction Space 379,589",607,3343,1000,30326,586044761,138868,Point University

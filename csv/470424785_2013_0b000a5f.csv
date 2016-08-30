@@ -1,0 +1,32 @@
+line1,line2,line3,key,fein,unitid,institutionname
+(1) Jean Baitman 1 00,X 0 0 0,Director,jean,470424785,181604,College of Saint Mary
+(2) Terri Campbell 1 00,X 0 0 0,Director,terri,470424785,181604,College of Saint Mary
+(3) Jane Carmody 1 00,X 0 0 0,Director,jane,470424785,181604,College of Saint Mary
+(4) Lorraine Chang 1 00,X 0 0 0,Director,lorraine,470424785,181604,College of Saint Mary
+(5) William Cutler 1 00,X 0 0 0,Director,william,470424785,181604,College of Saint Mary
+(6) Kathleen Dodge 1 00,X X 0 0 0,Vice Chair,kathleen,470424785,181604,College of Saint Mary
+(7) Ivan Gilreath 1 00,X 0 0 0,Director,ivan,470424785,181604,College of Saint Mary
+(8) Jane Hueiter 1 00,X X 0 0 0,Secretary,jane,470424785,181604,College of Saint Mary
+(9) Richard Jeffries 1 00,X X 0 0 0,Chair,richard,470424785,181604,College of Saint Mary
+(10) Carol Kontor 1 00,X 0 0 0,Director,carol,470424785,181604,College of Saint Mary
+(11) DaVId Kramer 1 00,X 0 0 0,Director,david,470424785,181604,College of Saint Mary
+(12) Deborah Macdonald 1 00,X X 0 0 0,Treasurer,deborah,470424785,181604,College of Saint Mary
+(13) Dr Sheila Megley 1 00,X 0 0 0,Director,sheila,470424785,181604,College of Saint Mary
+(14) Audrey Milfs 1 00,X 0 0 0,Director,audrey,470424785,181604,College of Saint Mary
+(15) Daniel O'Neill 1 00,X 0 0 0,Director,daniel,470424785,181604,College of Saint Mary
+(16) Daniel Padilla 1 00,X 0 0 0,Director,daniel,470424785,181604,College of Saint Mary
+(17) Steven Ritzman 1 00,X 0 0 0,Director,steven,470424785,181604,College of Saint Mary
+(18) Sr Marilyn Ross 1 00,X 0 0 0,Director,marilyn,470424785,181604,College of Saint Mary
+(19) Dr Michon Rozmajzl 1 00,X 0 0 0,Director,michon,470424785,181604,College of Saint Mary
+(20) Annette Smith 1 00,X 0 0 0,Director,annette,470424785,181604,College of Saint Mary
+(21) Dr Britt Thedinger 1 00,X 0 0 0,Director,britt,470424785,181604,College of Saint Mary
+(22) Sue Weiler—Doke 1 00,X 0 0 0,Director,sue,470424785,181604,College of Saint Mary
+(23) Doug Wilwerding 1 00,X 0 0 0,Director,doug,470424785,181604,College of Saint Mary
+(24) Lyn Wallin Ziegenbein 1 00,X 0 0 0,Director,lyn,470424785,181604,College of Saint Mary
+(25) Dr Maryanne Stevens 40 00,"X X 0 0 15,962",PreSIdent,maryanne,470424785,181604,College of Saint Mary
+(26) Sarah Kottich 40 00,"X 132,295 0 21,815",VP of Finance & Administration,sarah,470424785,181604,College of Saint Mary
+(27) Christine Pharr 40 00,"X 129,482 0 17,416",VP of Academic Affairs,christine,470424785,181604,College of Saint Mary
+(28) Tara Knudson Carl 40 00,"X 127,133 0 12,712",VP of Student Development,tara,470424785,181604,College of Saint Mary
+(29) Verlyn Schuler 40 00,"x 103,793 0 3,493",VP of Institutional Advancement,schuler,470424785,181604,College of Saint Mary
+"The Weitz Company 8715 S 121 Street LaVista NE 68128 Construction/Renovation 2,823,135","Zaiss & Co 11626 Nicholas Street Omaha NE 68154 Advertismg 690,144","Treat America Food SerVIces 8500 Shawnee Mi55ion Pkwy Merriam KS 66202 Food SerVIce 602,742",weitz,470424785,181604,College of Saint Mary
+"Zaiss & Co 11626 Nicholas Street Omaha NE 68154 Advertismg 690,144","Treat America Food SerVIces 8500 Shawnee Mi55ion Pkwy Merriam KS 66202 Food SerVIce 602,742","Architectural 101,426",zaiss,470424785,181604,College of Saint Mary

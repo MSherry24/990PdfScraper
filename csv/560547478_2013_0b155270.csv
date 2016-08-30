@@ -1,0 +1,34 @@
+line1,line2,line3,key,fein,unitid,institutionname
+(1) The Right Reverend Michael B Curry 1 00,X 0 0 0,Board Member,right,560547478,199582,Saint Augustine's University
+(2) The Honorable Thomas W Bradshaw Jr 1 00,X 0 0 0,Board Member,thomas,560547478,199582,Saint Augustine's University
+(3) Dr Chaitette Fairchild 1 00,X 0 0 0,Board Member,fairchild,560547478,199582,Saint Augustine's University
+(4) Mr Rodney E Gaddy 1 00,X X 0 0 0,Chairman,rodney,560547478,199582,Saint Augustine's University
+(5) Ms Marybeth Gasman Ph D 1 00,X 0 0 0,Board Member,marybeth,560547478,199582,Saint Augustine's University
+(6) The Reverend Joseph N Green 1 00,X 0 0 0,Board Member,joseph,560547478,199582,Saint Augustine's University
+(7) Mr Cornelius Neal Green 1 00,X 0 0 0,Board Member,cornelius,560547478,199582,Saint Augustine's University
+(8) Mrs Wren Mosee Lester 1 00,X 0 0 0,Board Member,wren,560547478,199582,Saint Augustine's University
+(9) MrJack S Lightbody CPM 1 00,X 0 0 0,Board Member,lightbody,560547478,199582,Saint Augustine's University
+(10) Mr Allen Mask MD 1 00,X 0 0 0,Board Member,allen,560547478,199582,Saint Augustine's University
+(11) MrA MeIVIn Miller 1 00,X 0 0 0,Board Member,miller,560547478,199582,Saint Augustine's University
+(12) MrJustin F Miller 1 00,X 0 0 0,Board Member,miller,560547478,199582,Saint Augustine's University
+(13) Reverend Dr William T Newkirk Sr 1 00,X X 0 0 0,Secretary,william,560547478,199582,Saint Augustine's University
+(14) Mr Harvey A Schmitt 1 00,X 0 0 0,Board Member,harvey,560547478,199582,Saint Augustine's University
+(15) Mrs Soberina F TrayWIck 1 00,X X 0 0 0,Treasurer,traywick,560547478,199582,Saint Augustine's University
+(16) Mrs Janet Peace Wheeler 1 00,X 0 0 0,Board Member,janet,560547478,199582,Saint Augustine's University
+(17) Major General Cornell A Wilson Jr 1 00,X 0 0 0,Board Member,major,560547478,199582,Saint Augustine's University
+(18) Dr Dorothy Cowser Yancy 1 00,X 0 0,Board Member,dorothy,560547478,199582,Saint Augustine's University
+(19) Dr Dianne B Suber 40 00,"X X 277,900 0",PreSIdent Former,dianne,560547478,199582,Saint Augustine's University
+(20) Dr B Connie Allen 40 00,"X 119,600 0",Vice PreSIdent for Academic Affairs,connie,560547478,199582,Saint Augustine's University
+(21) Dr Ronald H Brown 40 00,"X 112,202 0",Vice PreSIdent for Student Affairs,ronald,560547478,199582,Saint Augustine's University
+(22) Dr Roland Bullard 40 00,"X 90,900 0",Vice PreSIdent of Student Development,roland,560547478,199582,Saint Augustine's University
+(23) Mrs DorisJ Bullock 40 00,"X 78,277 0",Vice PreSIdent for External Relations Former,bullock,560547478,199582,Saint Augustine's University
+(24) Ms Angela Haynes 40 00,"X 105,000 0",Vice PreSIdent for Busmess and Financial Operations,angela,560547478,199582,Saint Augustine's University
+(25) Mr Michael Jackson 40 00,X 0 0,ASSIStant Professor,michael,560547478,199582,Saint Augustine's University
+(26) Mr Marc Allen Newman 40 00,"X 76,576 0",Vice PreSIdent of Development Former,marc,560547478,199582,Saint Augustine's University
+(27) Ms Gloria T Rowland 40 00,"X 81,454 0",Executive ASSIStant to the PreSIdent,gloria,560547478,199582,Saint Augustine's University
+(28) Mr Leon Scott 40 00,"X 49,324 0",Executive Vice PreSIdent Former,leon,560547478,199582,Saint Augustine's University
+(29) Ms Sonia E Gass 40 00,"X 44,019 0",Chief Development Officer,sonia,560547478,199582,Saint Augustine's University
+(30) Ms Everette B Ward 40 00,"X 31,250 0",PreSIdent,everette,560547478,199582,Saint Augustine's University
+"ABL Management PO Box 613128 Memphis TN 38101 Food SerVIce 2,325,795","JM Thompson Inc PO Box 33066 Raleigh NC 27636 Construction Contractor 601,625","Dant Clayton Corporation 1500 Bernheim Lane LOUISVllle KY 40210 Construction Contractor 146,595",service,560547478,199582,Saint Augustine's University
+"JM Thompson Inc PO Box 33066 Raleigh NC 27636 Construction Contractor 601,625","Dant Clayton Corporation 1500 Bernheim Lane LOUISVllle KY 40210 Construction Contractor 146,595","North Carolina SerVIce Company PO Box 27541 Raleigh NC 27611 Housekeeping 425,039",thompson,560547478,199582,Saint Augustine's University
+"Dant Clayton Corporation 1500 Bernheim Lane LOUISVllle KY 40210 Construction Contractor 146,595","North Carolina SerVIce Company PO Box 27541 Raleigh NC 27611 Housekeeping 425,039","Construction Contractor 194,145",dant,560547478,199582,Saint Augustine's University

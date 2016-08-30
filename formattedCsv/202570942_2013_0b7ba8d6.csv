@@ -1,0 +1,6 @@
+name,title,hours,salary1,salary2,salary3,fein,unitid,institutionname
+(1) MARTIN GOLD,PreSIdent,10,40000,0,0,202570942,455257,Yeshiva of Machzikai Hadas
+(2) MOSHE BABAD,Trustee,2,0,0,0,202570942,455257,Yeshiva of Machzikai Hadas
+(3) YOSEF GOLD,Trustee,10,0,0,0,202570942,455257,Yeshiva of Machzikai Hadas
+(4) HOWARD ENGEL,Treasurer,2,0,0,0,202570942,455257,Yeshiva of Machzikai Hadas
+(5) ARYEH RINGEL,Vice PreSIdent,2,0,0,0,202570942,455257,Yeshiva of Machzikai Hadas

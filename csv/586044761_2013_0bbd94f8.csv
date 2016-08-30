@@ -1,0 +1,28 @@
+line1,line2,line3,key,fein,unitid,institutionname
+(1) Steve Olsen 1 00,X X 0 0 0,Chairman,steve,586044761,138868,Point University
+(2) Cam Huxford 1 00,X X 0 0 0,Vice Chairman,cam,586044761,138868,Point University
+(3) Larry Vierling 1 00,X X 0 0 0,Secretary,larry,586044761,138868,Point University
+(4) Tony Collins 1 00,X X 0 0 0,Treasurer,tony,586044761,138868,Point University
+(5) Alan Stith 1 00,X 0 0 0,Trustee,alan,586044761,138868,Point University
+(6) Art Dana 1 00,X 0 0 0,Trustee,dana,586044761,138868,Point University
+(7) Dr Billye Joyce Fine 1 00,X 0 0 0,Trustee,billye,586044761,138868,Point University
+(8) Bob Johnson 1 00,X 0 0 0,Trustee,bob,586044761,138868,Point University
+(9) Dale Bouchillon 1 00,X 0 0 0,Trustee,dale,586044761,138868,Point University
+(10) DaVId Deeter 1 00,X 0 0 0,Trustee,david,586044761,138868,Point University
+(11) Gerald Andrews 1 00,X 0 0 0,Trustee,gerald,586044761,138868,Point University
+(12) J Ross Green 1 00,X 0 0 0,Trustee,ross,586044761,138868,Point University
+(14) Larry Bradberry 1 00,X 0 0 0,Trustee,larry,586044761,138868,Point University
+(15) MarVIn Bussey 1 00,X 0 0 0,Trustee,marvin,586044761,138868,Point University
+(16) Mike Waers 1 00,X 0 0 0,Trustee,mike,586044761,138868,Point University
+(17) Paul Leslie 1 00,X 0 0 0,Trustee,paul,586044761,138868,Point University
+(18) Dr Ralph Swearngin 1 00,X 0 0,Trustee,ralph,586044761,138868,Point University
+(19) Rob Raynor 1 00,X 0 0,Trustee,rob,586044761,138868,Point University
+(20) Robert Lamb 1 00,X 0 0,Trustee,robert,586044761,138868,Point University
+(21) Dean Collins 40 00,"x 137,311 53,416",PreSIdent,collins,586044761,138868,Point University
+(22) Joseph Botana 40 00,"X 68,000 0",VP Busmess & Finance — Part Year,joseph,586044761,138868,Point University
+(23) Stephen Weaver 40 00,"x 108,545 19,941",Facuky,stephen,586044761,138868,Point University
+(24) Emma Morris 40 00,"x 105,186 10,200",VP Educational Initiatives,emma,586044761,138868,Point University
+(25) Jose Dieudonne 40 00,"X 104,700 300",Chief Information Officer,jose,586044761,138868,Point University
+(26) Wilbert Harrison 40 00,"x 103,574 15,618",Chief Academic Officer,wilbert,586044761,138868,Point University
+"Crest Club 100 Crest Club Circle Valley AL36854 Student Housmg 904,369","Kimble's Food by De5ign 607 Hines Street LaGrange GA 30241 Food SerVIce 893,715","The DeMoss Group 3343 Peachtree Road NE SUIte 1000 Atlanta GA 30326 Public Relations 472,262",valley,586044761,138868,Point University
+"Kimble's Food by De5ign 607 Hines Street LaGrange GA 30241 Food SerVIce 893,715","The DeMoss Group 3343 Peachtree Road NE SUIte 1000 Atlanta GA 30326 Public Relations 472,262","Church of Highlands 2001 E Samford Avenue Auburn AL36830 Instruction Space 379,589",lagrange,586044761,138868,Point University

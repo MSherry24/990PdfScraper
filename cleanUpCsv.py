@@ -13,7 +13,10 @@ def processRow(row):
 		'salary1': salary[0],
 		'salary2': salary[1],
 		'salary3': salary[2],
-		'title': title
+		'title': title,
+		'fein': row['fein'],
+		'unitid' : row['unitid'],
+		'institutionname' : row['institutionname']
 	}
 
 def getTitle(row):
@@ -72,7 +75,7 @@ def IsInt(s):
 
 def writeRowsToFile(rows, filename):
 	with open(getFormattedCsvFilePath(filename), "w") as csvfile:
-		fieldNames = ['name', 'title', 'hours', 'salary1', 'salary2', 'salary3']
+		fieldNames = ['name', 'title', 'hours', 'salary1', 'salary2', 'salary3', 'fein', 'unitid', 'institutionname']
 		out = csv.DictWriter(csvfile, fieldNames)
 		out.writeheader()
 		for row in rows:
@@ -82,8 +85,12 @@ def writeRowsToFile(rows, filename):
 				'hours' : row['hours'],
 				'salary1' : row['salary1'],
 				'salary2' : row['salary2'],
-				'salary3' : row['salary3']
+				'salary3' : row['salary3'],
+				'fein': row['fein'],
+				'unitid' : row['unitid'],
+				'institutionname' : row['institutionname']
 			})
+		csvfile.close()
 
 def getFormattedCsvFilePath(file):
 	return 'formattedCsv/' + file
@@ -104,4 +111,12 @@ for file in csvFiles:
 		writeRowsToFile(rows, file)
 
 
-
+allSchoolsFile = [f for f in listdir('./') if isfile(join('./', f)) and 'allSchools.csv' in f]
+for file in allSchoolsFile:
+	rows = []
+	with open('./' + file) as csvfile:
+		reader = csv.DictReader(csvfile)
+		for row in reader:
+		    rowObject = processRow(row)
+		    rows.append(rowObject)
+		writeRowsToFile(rows, file)

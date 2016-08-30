@@ -1,0 +1,34 @@
+line1,line2,line3,key,fein,unitid,institutionname
+(1) Linette Fox 40 0,"x 77,425 0 11,015",Instructor/Trustee,linette,250983069,198756,Johnson C Smith University
+(2) Thomas Barnhardt 1 0,X 0 0 0,Trustee,thomas,250983069,198756,Johnson C Smith University
+(3) Steven L Boyd 1 0,X 0 0 0,Trustee,steven,250983069,198756,Johnson C Smith University
+(4) Melva Wilson Costen 1 0,X 0 0 0,Trustee,melva,250983069,198756,Johnson C Smith University
+(5) J Porter Durham Jr 1 0,X 0 0 0,Trustee,porter,250983069,198756,Johnson C Smith University
+(6) Parran L Foster III 1 0,X 0 0 0,Trustee,parran,250983069,198756,Johnson C Smith University
+(7) Cameron M Harris 1 0,X 0 0 0,Trustee,cameron,250983069,198756,Johnson C Smith University
+(8) Willard T Fair 1 0,X 0 0 0,Trustee,willard,250983069,198756,Johnson C Smith University
+(9) KeVIn Henry 1 0,X 0 0 0,Trustee,kevin,250983069,198756,Johnson C Smith University
+(10) Shirley Hughes 1 0,X X 0 0 0,Vice—Chair,shirley,250983069,198756,Johnson C Smith University
+(11) Shaquana Jackson 1 0,X 0 0 0,Trustee,shaquana,250983069,198756,Johnson C Smith University
+(12) Michael Jones 1 0,X 0 0 0,Trustee,michael,250983069,198756,Johnson C Smith University
+(13) Monroe Miller 1 0,X X 0 0 0,Chairman,miller,250983069,198756,Johnson C Smith University
+(14) Patricia Morton 1 0,X 0 0 0,Trustee,patricia,250983069,198756,Johnson C Smith University
+(15) Gregory W NonNood 1 0,X 0 0 0,Trustee,gregory,250983069,198756,Johnson C Smith University
+(16) Richard J Osborne 1 0,X 0 0 0,Trustee,richard,250983069,198756,Johnson C Smith University
+(17) Tami Simmons 1 0,X X 0 0 0,Secretary,tami,250983069,198756,Johnson C Smith University
+(18) Grover Smith 1 0,X 0 0 0,Trustee,grover,250983069,198756,Johnson C Smith University
+(19) John B Stedman Jr 1 0,X 0 0 0,Trustee,john,250983069,198756,Johnson C Smith University
+(20) McKinley Washington Jr 1 0,X 0 0 0,Trustee,mckinley,250983069,198756,Johnson C Smith University
+(21) James Woodward 1 0,X 0 0 0,Trustee,james,250983069,198756,Johnson C Smith University
+(22) Ronald Lee Carter 40 0,"X 232,582 0 35,525",PreSIdent,ronald,250983069,198756,Johnson C Smith University
+(23) Greg W Petzke 40 0,"x 36,323 0 1,112",Vice PreSIdent — Finance,greg,250983069,198756,Johnson C Smith University
+(24) Elfred Pinkard 40 0,"X 170,358 0 17,749",Executive Vice PreSIdent,pinkard,250983069,198756,Johnson C Smith University
+(25) Joy Paige 40 0,"X 140,014 0 16,002",Vice PreSIdent — Development,joy,250983069,198756,Johnson C Smith University
+(26) OliVia Diane Bowles 40 0,"X 128,519 0 18,333",ASSIStand VP GSPAR,olivia,250983069,198756,Johnson C Smith University
+(27) Magdy Attia 40 0,"X 122,834 0 26,090",Dean of STEM,attia,250983069,198756,Johnson C Smith University
+Dean of STEM,(28) Stephen Joyner 40 0,"X 106,102 0 14,094",stem,250983069,198756,Johnson C Smith University
+(28) Stephen Joyner 40 0,"X 106,102 0 14,094",Athletic Director,stephen,250983069,198756,Johnson C Smith University
+(29) Hang Chen 40 0,"X 108,426 0 17,007",Instructor,hang,250983069,198756,Johnson C Smith University
+"Messer Construction Company, 5158 FishWick Drive CINCINNATI OH 45216 Construction 10,237,067","Perkins Management SerVIces, 129 West Trade Street SUIte 1260 CHARLOTTE NC 28202 Food Mgt SerVIces 2,648,840","Mosaic Village Holdings LLC, 19109 West Catawba Avenue SUIte 200 CORNELIUS NC 28031 Property Management 1,970,000",messer,250983069,198756,Johnson C Smith University
+"Perkins Management SerVIces, 129 West Trade Street SUIte 1260 CHARLOTTE NC 28202 Food Mgt SerVIces 2,648,840","Mosaic Village Holdings LLC, 19109 West Catawba Avenue SUIte 200 CORNELIUS NC 28031 Property Management 1,970,000","National Management Resources, 113 Corporate Park LAGRANGE GA 30241 PhySIcal Plant Mgt 1,658,001",perkins,250983069,198756,Johnson C Smith University
+"Mosaic Village Holdings LLC, 19109 West Catawba Avenue SUIte 200 CORNELIUS NC 28031 Property Management 1,970,000","National Management Resources, 113 Corporate Park LAGRANGE GA 30241 PhySIcal Plant Mgt 1,658,001","Construction 1,607,356",cornelius,250983069,198756,Johnson C Smith University
